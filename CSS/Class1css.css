@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+/* top section  */
+#hader{
+    width: 100%;
+    display: inline-block;
+    background-color: black;
+
+}
+#hader .logo{
+    width: 30%;
+    float: left;
+}
+#hader .logo i{
+    color: #fff;
+    font-size: 35px;
+    line-height: 0;
+    margin: 40px 160px;
+    text-align: center;
+}
+#hader .logo h3{
+    color:#fff;
+    font-size: 35px;
+    line-height: 0;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#hader .nav{
+    width: 60%;
+    float: left;
+    margin: 50px 0;
+}
+#hader .nav ul li{
+    display: inline-block;
+}
+#hader .nav ul li a{
+    color: #fff;
+    font-size: 40px;
+    line-height: 27px;
+    font-weight: 600;
+    margin-right: 20px;
+}
+#hader .nav ul li a:hover{
+    color: green;
+}
+#hader .hader-end{
+    width: 10%;
+    float: left;
+    margin-top: 40px;
+}
+#hader .hader-end i{
+    color: #fff;
+    font-size: 40px;
+}
